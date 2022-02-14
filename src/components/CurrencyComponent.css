@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.money-img {
+  width: 215px;
+}
+
+.equal {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.currency {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.currency select {
+  padding: 10px 20px;
+  border: 1px solid #dedede;
+  font-size: 16px;
+  appearance: none;
+  margin-right: 20px;
+}
+
+.currency input {
+  border: 0;
+  font-size: 30px;
+  text-align: end;
+}
+
+.currency select,
+.currency input {
+  outline: none;
+}
